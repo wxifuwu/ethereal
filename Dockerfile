@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y build-essential \
     libgif-dev \
     librsvg2-dev \
     dumb-init \ 
-    libsodium \
     && apt-get clean
 
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
