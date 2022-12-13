@@ -3,7 +3,7 @@ pipeline:
     image: woodpeckerci/plugin-docker-buildx
     settings:
       repo: wxifuwu/ethereal
-      tags: debian
+      tags: latest
       username: 
         from_secret: docker_username
       password:
